@@ -42,7 +42,7 @@
                 foreach ($todaysCourses as $courses) { ?>
                 <?php 
                     $piece = explode("\t", $courses); ?>
-                    <li><?= "$piece[0] - $piece" ?></li>
+                    <li><?= "$piece[0] - $piece[1]" ?></li>
                 <?php } ?>
         </ol>
     </div>
@@ -75,7 +75,9 @@
                 $courseList = file("courses.tsv");
                 $searchedCourses = getCoursesByCharacter($courseList, $character);
                 foreach ($searchedCourses as $courses) { ?>
-                    <li><?= $courses ?></li>
+                <?php 
+                    $piece = explode("\t", $courses); ?>
+                    <li><?= "$piece[0] - $piece[1]" ?></li>
                 <?php } ?>
         </ol>
     </div>
