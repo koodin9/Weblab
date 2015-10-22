@@ -1,0 +1,11 @@
+koodin;1;Apple;2
+koodin;1;Apple;2
+koodin;1;Apple;2
+koodin;1;Melon;2
+koodin;1;Melon;4
+koodin;1;Melon;4
+koodin;1;Melon;4
+koodin;1;Melon;4
+koodin;1;Melon;4
+koodin;1;Melon;4
+;;Melon;4
